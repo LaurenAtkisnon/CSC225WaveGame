@@ -3,20 +3,19 @@
 
 2. As a user, I want to be able to have multiple saved games so that I can start and save new games without overwriting my original game.
 
-3. As a user, I want a game that does not lags so that I will be able to get the best experience out of the game. 
+3. As a user, I want a game that does not lag so that I will be able to get the best experience out of the game. 
 
 4. As a user, I want to be able to know how what each powerup does so that I know exactly what each powerup is useful for. 
 
 5. As a user, I want to be able to look back on the controls for the game while I have the game paused.
 
-6. As a user, I want a help section that I can understand and be able to know how to play the game before starting the game mode. 
+6. As a user, I want a help section that I can understand and be able to know how to play the game so that I know before starting the game mode. 
 
 7. As a user, I want to be able to play the full game instead of half of the game.
 
-8. As a user, I want to be able to change my character sprite so I can add my own personal touch to the game.
+8. As a user, I want to be able to change my character sprite so that I can add my own personal touch to the game.
 
-9. As a Player, I want to see my score progress in each playthrough, so that I can compare my progress to previous playthroughs.
+9. As a user, I want to be able to see my score progress in each playthrough, so that I can compare my progress to previous playthroughs.
 
-
-10. As a Player, I want to clearly see my character and enemies, so that I won’t lose track of my character’s position.
+10. As a user, I want to be able to clearly see my character and enemies, so that I won’t lose track of my character’s position.
 
