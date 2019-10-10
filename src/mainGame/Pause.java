@@ -237,7 +237,7 @@ public class Pause {
     g.setColor(Color.BLACK);
     g.fillRect(0,0,1920,1280);
     g.setFont(font);
-    g.setColor(Color.white);
+    g.setColor(Color.cyan);
     g.drawString("Welcome to The Shop!", 275, 500); //900,70
     g.drawString("Click on any item to learn more about it.", 95, 575);
 
@@ -255,8 +255,8 @@ public class Pause {
     g.setFont(font2);
  // g.drawString("Passive Abilities", 360, 110);
  // g.drawString("Active Abilities", 360, 585);
-    g.drawString("Passive Loadout", 1260, 110);
-    g.drawString("Description", 1290, 585);
+    g.drawString("Powerups", 1375, 110);
+    g.drawString("Powerup Ability", 1300, 585);
 
     //Back Button
     g.drawRect(1795,950,80,50);
@@ -305,21 +305,21 @@ public class Pause {
 
     //Loadout
 	    g.drawImage(healthRegenIcon, 1050, 125, 125, 125, null);
-	    g.drawString("X"+hud.getNumRegen(),1050,300);
+	    g.drawString("Health"+hud.getNumRegen(),1050,300);
 	    g.drawImage(damageResistanceIcon, 1650, 125, 125, 125, null);
-	    g.drawString("X"+hud.getNumArmor(),1650,300);
+	    g.drawString("Damage"+hud.getNumArmor(),1650,300);
 	    g.drawImage(freezeTimeIcon, 1450, 325, 125, 125, null);
-	    g.drawString("X"+hud.getNumFreeze(),1450,500);
+	    g.drawString("Freeze"+hud.getNumFreeze(),1450,500);
 	    g.drawImage(clearScreenIcon, 1650, 325, 125, 125, null);
-	    g.drawString("X"+hud.getNumClear(),1650,500);
+	    g.drawString("Screen"+hud.getNumClear(),1650,500);
 	    g.drawImage(speedBoostIcon, 1050, 325, 125, 125, null);
-	    g.drawString("X"+hud.getNumSpeed(),1050,500);
+	    g.drawString("Speed"+hud.getNumSpeed(),1050,500);
 	    g.drawImage(healthIncreaseIcon, 1250, 125, 125, 125, null);
-	    g.drawString("X"+hud.getNumHealth(),1250,300);
+	    g.drawString("Health+"+hud.getNumHealth(),1250,300);
 	    g.drawImage(shrinkIcon, 1450, 125, 125, 125, null);
-	    g.drawString("X"+hud.getNumShrink(),1450,300);
+	    g.drawString("Shrink"+hud.getNumShrink(),1450,300);
 	    g.drawImage(extraLifeIcon, 1250, 325, 125, 125, null);
-	    g.drawString("X"+hud.getExtraLives(),1250,500);
+	    g.drawString("Lives"+hud.getExtraLives(),1250,500);
 
     //Description
     g.drawString(this.getDescription(),1000,650);
